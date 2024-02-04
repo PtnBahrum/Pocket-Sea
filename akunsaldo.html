@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Saldo dan Kartu</title>
+    <link rel="stylesheet" href="css/esta.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/icons/image.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/animsition/css/animsition.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Akun</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-nav">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarTogglerDemo01"
+      >
+        <a
+          class="navbar-brand-cus d-flex align-items-center"
+          href="#"
+          style="color: #4cb8f5; font-family: Roboto-Bold; font-size: 36px"
+          ><img
+            style="height: 1.5em; margin-right: 15px"
+            src="images/icons/image.png"
+            alt=""
+          />POCKET SEA</a
+        >
+        <div class="navbar-nav w-50 mt-lg-0">
+          <form class="w-100">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+        <div class="d-flex justify-content-between" style="width: 20%">
+          <a href="akunnotifikasi.html">
+            <img
+              src="images/icons/notifications.svg"
+              alt=""
+              width="32px"
+              style="height: 100%"
+            />
+          </a>
+          <div class="form-inline my-2 my-lg-0">
+            <a class="butuh-bantuan" href="help.html">Butuh Bantuan?</a>
+          </div>
+          <a href="akun.html">
+            <img
+              class="p-1"
+              src="images/icons/account.svg"
+              alt=""
+              width="60px"
+            />
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end header -->
+    <div class="d-flex">
+      <!-- sidebar -->
+      <div class="akun-sidebar">
+        <div class="sidebar-atas">
+          <div class="row mt-3">
+            <div class="col-auto pr-0">
+              <img
+                src="images/icons/account.svg"
+                alt=""
+                class="svg-invert sidebar-profile"
+              />
+            </div>
+            <div class="col-auto" style="align-self: center">
+              <h5>Imron_cs</h5>
+              <a href="akun.html"><b>Ubah Profil</b></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container sidebar-bawah">
+          <a href="akun.html">
+            <div class="row">
+              <div class="col-3 d-flex justify-content-center">
+                <i class="fa fa-user-circle-o fa-2x"></i>
+              </div>
+              <div class="col d-flex align-items-center">
+                <h5>
+                  <b>Akun Saya</b>
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div class="row mb-2">
+            <div class="col-3"></div>
+            <div class="col-auto">
+              <p><a href="akun.html">Profil</a></p>
+              <p><a href="akunsaldo.html">Saldo dan Kartu</a></p>
+              <p><a href="akunalamat.html">Alamat</a></p>
+              <p><a href="akunubahpassword.html">Ubah Password</a></p>
+            </div>
+          </div>
+          <a href="akunpesanansaya.html">
+            <div class="row mb-2">
+              <div class="col-3">
+                <i class="fa fa-shopping-cart fa-2x"></i>
+              </div>
+              <div class="col-auto d-flex align-items-center">
+                <h5>
+                  <b>Pesanan Saya</b>
+                </h5>
+              </div>
+            </div></a
+          >
+          <a href="akunnotifikasi.html">
+            <div class="row mb-2">
+              <div class="col-3 d-flex justify-content-center">
+                <i class="fa fa-bell fa-2x"></i>
+              </div>
+              <div class="col-auto d-flex align-items-center">
+                <h5>
+                  <b>Notifikasi</b>
+                </h5>
+              </div>
+            </div></a
+          >
+          <a href="akunriwayat.html">
+            <div class="row mb-2">
+              <div class="col-3">
+                <i class="fa fa-check-square fa-2x"></i>
+              </div>
+              <div class="col-auto d-flex align-items-center">
+                <h5>
+                  <b>Riwayat</b>
+                </h5>
+              </div>
+            </div>
+          </a>
+          <a href="akunfavorit.html">
+            <div class="row">
+              <div class="col-3">
+                <i class="fa fa-bookmark fa-2x"></i>
+              </div>
+              <div class="col-auto d-flex align-items-center">
+                <h5>
+                  <b>Favorit</b>
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- sidebar -->
+
+      <div class="container akun m-4 px-5">
+        <div class="row">
+          <div class="col">
+            <h1>Saldo Saya</h1>
+          </div>
+          <div class="col-3">
+            <button type="button" class="btn btn-warning">
+              + Tambah Kartu
+            </button>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col mb-2">
+            <h3>Rekening Saya</h3>
+          </div>
+          <div class="col-3">
+            <h3>Total Saldo</h3>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col">
+            <img src="images/bni.png" alt="" style="width: 158px" />
+          </div>
+          <div class="col-3 d-flex align-items-center">
+            <h5>Rp 3.450.000,00</h5>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col mb-2">
+            <h3>Saldo Lainnya</h3>
+          </div>
+          <div class="col-3">
+            <h3>Total Saldo</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p style="font-size: 1.25em">E-Wallet</p>
+          </div>
+          <div class="col-3 d-flex align-items-center">
+            <h5>Rp 950.000,00</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-footer text-style">
+      <section
+        class="
+          d-flex
+          justify-content-center justify-content-lg-between
+          p-4
+          border-bottom
+        "
+      ></section>
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-justify text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Pocket Sea
+              </h6>
+              <p>56 Chambers St, New York, NY 10007, USA</p>
+              <p>Phone: +1-555-505-5050</p>
+              <p>Email: example@mail.com</p>
+              <br />
+              <br />
+              <br />
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Tentang Kami
+              </h6>
+              <p><a href="#">Kebijakan</a></p>
+              <p><a href="#">Blog</a></p>
+              <p><a href="#">Kontak Media</a></p>
+              <p><a href="#">Karir</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Pembayaran</h6>
+              <p>
+                <img src="images/Pembayaran.png" alt="" />
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-1 col-xl-1 mx-auto mb-3"></div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <!-- <p class="text-uppercase fw-bold mb-4">
+			  Contact
+			</h6> -->
+              <p>
+                <i class="fas fa-gem me-3"></i>Pocket Sea Solusi Cerdas
+                Mendapatkan Ikan Segar. Dengan Akses pemesana yang mudah ,
+                Pocket Sea membantu masyarakat mendapatkan produk pakan baik
+                laut maupun darat.
+              </p>
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-facebook-f"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-linkedin-in">In</i></a
+              >
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-1 mx-auto mb-3">
+              <img
+            style="height: 50px; margin-right: 15px"
+                src="images/icons/image.png"
+                alt=""
+              />
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+  </body>
+</html>

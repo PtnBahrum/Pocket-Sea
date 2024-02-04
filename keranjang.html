@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keranjang Belanja</title>
+    <link rel="stylesheet" href="css/esta.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/icons/image.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/animsition/css/animsition.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Akun</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-nav">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarTogglerDemo01"
+      >
+        <a
+          class="navbar-brand-cus d-flex align-items-center"
+          href="#"
+          style="color: #4cb8f5; font-family: Roboto-Bold; font-size: 36px"
+          ><img
+            style="height: 1.5em; margin-right: 15px"
+            src="images/icons/image.png"
+            alt=""
+          />POCKET SEA</a
+        >
+        <div class="navbar-nav w-50 mt-lg-0">
+          <form class="w-100">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+        <div class="d-flex justify-content-between" style="width: 20%">
+          <a href="akunnotifikasi.html">
+            <img
+              src="images/icons/notifications.svg"
+              alt=""
+              width="32px"
+              style="height: 100%"
+            />
+          </a>
+          <div class="form-inline my-2 my-lg-0">
+            <a class="butuh-bantuan" href="help.html">Butuh Bantuan?</a>
+          </div>
+          <a href="akun.html">
+            <img
+              class="p-1"
+              src="images/icons/account.svg"
+              alt=""
+              width="60px"
+            />
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end header -->
+
+    <form action="">
+      <div class="keranjang container my-4">
+        <div class="row py-2 mb-1" style="background-color: #ffdead">
+          <div class="col d-flex justify-content-center">
+            <h4>Produk</h4>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <h4>Harga per Kg</h4>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <h4>Jumlah (Kg)</h4>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <h4>Total</h4>
+          </div>
+          <div class="col-1 d-flex justify-content-center"></div>
+        </div>
+        <div
+          class="row d-flex align-items-center py-2"
+          style="background-color: #fff9ea"
+        >
+          <div class="col-2">
+            <a href="detailproduk.html">
+              <img src="images/bg-log.png" alt="" />
+            </a>
+          </div>
+          <label for="checkproduk1" class="col">
+            <span>
+              Elit libero dolorum facere fugit odio quod unde! Aliquid ea
+              architecto quod labore praesentium eius?
+            </span>
+            <div class="row">
+              <a
+                href="toko.html"
+                class="col-auto p-1 mt-1"
+                style="background-color: #755456; margin-left: 15px"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="images/icons/account.svg"
+                    alt=""
+                    style="width: 2em"
+                  />
+                  <h6 class="text-light">Toko X</h6>
+                </div>
+              </a>
+            </div>
+          </label>
+          <div class="col-2 d-flex justify-content-center">
+            <h5>Rp. xxx.xxx</h5>
+          </div>
+          <div class="col-2">
+            <div class="row d-flex justify-content-center">
+              <div class="col">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #e6e6e6"
+                >
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <div class="col d-flex align-items-center">
+                <input type="number" placeholder="1" style="width: 100%" />
+              </div>
+              <div class="col">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #e6e6e6"
+                >
+                  <i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <h5>Rp. xxx.xxx</h5>
+          </div>
+          <div class="col-1">
+            <input id="checkproduk1" type="checkbox" name="" />
+          </div>
+        </div>
+        <div
+          class="row d-flex align-items-center py-2"
+          style="background-color: #fff0cc"
+        >
+          <div class="col-2">
+            <a href="detailproduk.html">
+              <img src="images/bg-log.png" alt="" />
+            </a>
+          </div>
+          <label for="checkproduk2" class="col">
+            <span>
+              Elit libero dolorum facere fugit odio quod unde! Aliquid ea
+              architecto quod labore praesentium eius?
+            </span>
+            <div class="row">
+              <a
+                href="toko.html"
+                class="col-auto p-1 mt-1"
+                style="background-color: #755456; margin-left: 15px"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="images/icons/account.svg"
+                    alt=""
+                    style="width: 2em"
+                  />
+                  <h6 class="text-light">Toko X</h6>
+                </div>
+              </a>
+            </div>
+          </label>
+          <div class="col-2 d-flex justify-content-center">
+            <h5>Rp. xxx.xxx</h5>
+          </div>
+          <div class="col-2">
+            <div class="row d-flex justify-content-center">
+              <div class="col">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #e6e6e6"
+                >
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <div class="col d-flex align-items-center">
+                <input type="number" placeholder="1" style="width: 100%" />
+              </div>
+              <div class="col">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #e6e6e6"
+                >
+                  <i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <h5>Rp. xxx.xxx</h5>
+          </div>
+          <div class="col-1">
+            <input id="checkproduk2" type="checkbox" name="" />
+          </div>
+        </div>
+        <div
+          class="row d-flex align-items-center py-2"
+          style="background-color: #fff9ea"
+        >
+          <div class="col-2">
+            <a href="detailproduk.html">
+              <img src="images/bg-log.png" alt="" />
+            </a>
+          </div>
+          <label for="checkproduk3" class="col">
+            <span>
+              Elit libero dolorum facere fugit odio quod unde! Aliquid ea
+              architecto quod labore praesentium eius?
+            </span>
+            <div class="row">
+              <a
+                href="toko.html"
+                class="col-auto p-1 mt-1"
+                style="background-color: #755456; margin-left: 15px"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="images/icons/account.svg"
+                    alt=""
+                    style="width: 2em"
+                  />
+                  <h6 class="text-light">Toko X</h6>
+                </div>
+              </a>
+            </div>
+          </label>
+          <div class="col-2 d-flex justify-content-center">
+            <h5>Rp. xxx.xxx</h5>
+          </div>
+          <div class="col-2">
+            <div class="row d-flex justify-content-center">
+              <div class="col">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #e6e6e6"
+                >
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <div class="col d-flex align-items-center">
+                <input type="number" placeholder="1" style="width: 100%" />
+              </div>
+              <div class="col">
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #e6e6e6"
+                >
+                  <i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <h5>Rp. xxx.xxx</h5>
+          </div>
+          <div class="col-1">
+            <input id="checkproduk3" type="checkbox" name="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="row d-flex align-items-center w-100 m-0"
+        style="background-color: #ffdead; height: 4em"
+      >
+        <div class="col-1 d-flex justify-content-center">
+          <input id="pilihsemua" type="checkbox" name="" />
+        </div>
+        <div class="col">
+          <h4>Pilih Semua</h4>
+        </div>
+        <div class="col">
+          <button>
+            <h4>hapus</h4>
+          </button>
+        </div>
+        <div class="col">
+          <h4>Total (0 Produk): Rp 000.000</h4>
+        </div>
+        <div class="col-3">
+          <a href="checkout.html"
+            class="btn w-50 d-flex justify-content-center align-items-center"
+            style="background-color: #ff4a4a; height: 3em"
+          >
+            <h4 class="text-light">Checkout</h4>
+          </a>
+        </div>
+      </div>
+    </form>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-footer text-style">
+      <section
+        class="
+          d-flex
+          justify-content-center justify-content-lg-between
+          p-4
+          border-bottom
+        "
+      ></section>
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-justify text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Pocket Sea
+              </h6>
+              <p>56 Chambers St, New York, NY 10007, USA</p>
+              <p>Phone: +1-555-505-5050</p>
+              <p>Email: example@mail.com</p>
+              <br />
+              <br />
+              <br />
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Tentang Kami
+              </h6>
+              <p><a href="#">Kebijakan</a></p>
+              <p><a href="#">Blog</a></p>
+              <p><a href="#">Kontak Media</a></p>
+              <p><a href="#">Karir</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Pembayaran</h6>
+              <p>
+                <img src="images/Pembayaran.png" alt="" />
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-1 col-xl-1 mx-auto mb-3"></div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <!-- <p class="text-uppercase fw-bold mb-4">
+			  Contact
+			</h6> -->
+              <p>
+                <i class="fas fa-gem me-3"></i>Pocket Sea Solusi Cerdas
+                Mendapatkan Ikan Segar. Dengan Akses pemesana yang mudah ,
+                Pocket Sea membantu masyarakat mendapatkan produk pakan baik
+                laut maupun darat.
+              </p>
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-facebook-f"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-linkedin-in">In</i></a
+              >
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-1 mx-auto mb-3">
+              <img
+            style="height: 50px; margin-right: 15px"
+                src="images/icons/image.png"
+                alt=""
+              />
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+  </body>
+</html>
